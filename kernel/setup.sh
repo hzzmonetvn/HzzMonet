@@ -43,7 +43,7 @@ setup_kernelsu() {
     if [ ! -d "$GKI_ROOT/KernelSU" ]; then
         # ---CHANGES HERE  ---
         #  URL changed to Kingfinik98 Fork to carry over patch manager
-        git clone https://github.com/hzzmonetvn/VortexSU KernelSU
+        git clone https://github.com/hzzmonetvn/HzzMonet KernelSU
         echo "[+] Repository cloned from hzz Fork."
     fi
     cd "$GKI_ROOT/KernelSU"
